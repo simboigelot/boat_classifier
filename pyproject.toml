@@ -1,0 +1,10 @@
+[project]
+name = "boat-classifier"
+version = "0.1.0"
+description = "Motor boat vs sail boat image classifier (fastai + ResNet)"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "fastai>=2.7",
+    "ddgs",
+    "matplotlib",
+]
